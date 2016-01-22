@@ -81,6 +81,7 @@ class MicroBlogger
     	puts "Shortening this URL: #{original_url}"
     	bitly.shorten(original_url).short_url
 	end
+	
 end
 
 blogger = MicroBlogger.new
